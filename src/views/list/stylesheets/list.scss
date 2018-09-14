@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+ul, h1, h2 {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    width: 210px;
+    height: 611px;
+    li {
+        width: 21px;
+        height: 61px;
+        list-style: none;
+    }
+}
+h1 {
+    color: rgb(223, 0, 211);
+    font-size: 21px;
+}

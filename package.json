@@ -1,0 +1,44 @@
+{
+  "name": "myproject",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "asynckit": "^0.4.0",
+    "babel-loader": "^7.0.0",
+    "delayed-stream": "^1.0.0",
+    "es6-promise": "^4.2.5",
+    "fast-deep-equal": "^2.0.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.6.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-inject": "^4.3.2",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-watch": "^5.0.1",
+    "gulp-webpack": "^1.5.0",
+    "json-schema-traverse": "^0.4.1",
+    "make-dir": "^1.3.0",
+    "merge-stream": "^1.0.1",
+    "os-tmpdir": "^1.0.2",
+    "webpack-stream": "^5.1.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.2",
+    "babel-preset-es2015": "^6.24.1",
+    "gulp-markdown-pdf": "^6.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "htmlmin": "gulp htmlmin",
+    "watch": "gulp watch",
+    "dev": "gulp",
+    "start": "npm run dev"
+  },
+  "author": "aia",
+  "license": "ISC",
+  "description": "cc"
+}
